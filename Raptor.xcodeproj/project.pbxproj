@@ -1,0 +1,604 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4B9688792A3BCF01001DE659 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B9688782A3BCF01001DE659 /* AppDelegate.m */; };
+		4B96887C2A3BCF01001DE659 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B96887B2A3BCF01001DE659 /* SceneDelegate.m */; };
+		4B96887F2A3BCF01001DE659 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B96887E2A3BCF01001DE659 /* ViewController.m */; };
+		4B9688822A3BCF01001DE659 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B9688802A3BCF01001DE659 /* Main.storyboard */; };
+		4B9688842A3BCF03001DE659 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4B9688832A3BCF03001DE659 /* Assets.xcassets */; };
+		4B9688872A3BCF03001DE659 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B9688852A3BCF03001DE659 /* LaunchScreen.storyboard */; };
+		4B96888A2A3BCF03001DE659 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B9688892A3BCF03001DE659 /* main.m */; };
+		4B9688942A3BCF03001DE659 /* RaptorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B9688932A3BCF03001DE659 /* RaptorTests.m */; };
+		4B96889E2A3BCF03001DE659 /* RaptorUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B96889D2A3BCF03001DE659 /* RaptorUITests.m */; };
+		4B9688A02A3BCF03001DE659 /* RaptorUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B96889F2A3BCF03001DE659 /* RaptorUITestsLaunchTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4B9688902A3BCF03001DE659 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4B96886C2A3BCF01001DE659 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4B9688732A3BCF01001DE659;
+			remoteInfo = Raptor;
+		};
+		4B96889A2A3BCF03001DE659 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4B96886C2A3BCF01001DE659 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4B9688732A3BCF01001DE659;
+			remoteInfo = Raptor;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4B9688742A3BCF01001DE659 /* Raptor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Raptor.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B9688772A3BCF01001DE659 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4B9688782A3BCF01001DE659 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4B96887A2A3BCF01001DE659 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		4B96887B2A3BCF01001DE659 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		4B96887D2A3BCF01001DE659 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		4B96887E2A3BCF01001DE659 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4B9688812A3BCF01001DE659 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4B9688832A3BCF03001DE659 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4B9688862A3BCF03001DE659 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4B9688882A3BCF03001DE659 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4B9688892A3BCF03001DE659 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4B96888F2A3BCF03001DE659 /* RaptorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RaptorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B9688932A3BCF03001DE659 /* RaptorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RaptorTests.m; sourceTree = "<group>"; };
+		4B9688992A3BCF03001DE659 /* RaptorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RaptorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B96889D2A3BCF03001DE659 /* RaptorUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RaptorUITests.m; sourceTree = "<group>"; };
+		4B96889F2A3BCF03001DE659 /* RaptorUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RaptorUITestsLaunchTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4B9688712A3BCF01001DE659 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B96888C2A3BCF03001DE659 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B9688962A3BCF03001DE659 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4B96886B2A3BCF01001DE659 = {
+			isa = PBXGroup;
+			children = (
+				4B9688762A3BCF01001DE659 /* Raptor */,
+				4B9688922A3BCF03001DE659 /* RaptorTests */,
+				4B96889C2A3BCF03001DE659 /* RaptorUITests */,
+				4B9688752A3BCF01001DE659 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4B9688752A3BCF01001DE659 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4B9688742A3BCF01001DE659 /* Raptor.app */,
+				4B96888F2A3BCF03001DE659 /* RaptorTests.xctest */,
+				4B9688992A3BCF03001DE659 /* RaptorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4B9688762A3BCF01001DE659 /* Raptor */ = {
+			isa = PBXGroup;
+			children = (
+				4B9688772A3BCF01001DE659 /* AppDelegate.h */,
+				4B9688782A3BCF01001DE659 /* AppDelegate.m */,
+				4B96887A2A3BCF01001DE659 /* SceneDelegate.h */,
+				4B96887B2A3BCF01001DE659 /* SceneDelegate.m */,
+				4B96887D2A3BCF01001DE659 /* ViewController.h */,
+				4B96887E2A3BCF01001DE659 /* ViewController.m */,
+				4B9688802A3BCF01001DE659 /* Main.storyboard */,
+				4B9688832A3BCF03001DE659 /* Assets.xcassets */,
+				4B9688852A3BCF03001DE659 /* LaunchScreen.storyboard */,
+				4B9688882A3BCF03001DE659 /* Info.plist */,
+				4B9688892A3BCF03001DE659 /* main.m */,
+			);
+			path = Raptor;
+			sourceTree = "<group>";
+		};
+		4B9688922A3BCF03001DE659 /* RaptorTests */ = {
+			isa = PBXGroup;
+			children = (
+				4B9688932A3BCF03001DE659 /* RaptorTests.m */,
+			);
+			path = RaptorTests;
+			sourceTree = "<group>";
+		};
+		4B96889C2A3BCF03001DE659 /* RaptorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4B96889D2A3BCF03001DE659 /* RaptorUITests.m */,
+				4B96889F2A3BCF03001DE659 /* RaptorUITestsLaunchTests.m */,
+			);
+			path = RaptorUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4B9688732A3BCF01001DE659 /* Raptor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4B9688A32A3BCF03001DE659 /* Build configuration list for PBXNativeTarget "Raptor" */;
+			buildPhases = (
+				4B9688702A3BCF01001DE659 /* Sources */,
+				4B9688712A3BCF01001DE659 /* Frameworks */,
+				4B9688722A3BCF01001DE659 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Raptor;
+			productName = Raptor;
+			productReference = 4B9688742A3BCF01001DE659 /* Raptor.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4B96888E2A3BCF03001DE659 /* RaptorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4B9688A62A3BCF03001DE659 /* Build configuration list for PBXNativeTarget "RaptorTests" */;
+			buildPhases = (
+				4B96888B2A3BCF03001DE659 /* Sources */,
+				4B96888C2A3BCF03001DE659 /* Frameworks */,
+				4B96888D2A3BCF03001DE659 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4B9688912A3BCF03001DE659 /* PBXTargetDependency */,
+			);
+			name = RaptorTests;
+			productName = RaptorTests;
+			productReference = 4B96888F2A3BCF03001DE659 /* RaptorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4B9688982A3BCF03001DE659 /* RaptorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4B9688A92A3BCF03001DE659 /* Build configuration list for PBXNativeTarget "RaptorUITests" */;
+			buildPhases = (
+				4B9688952A3BCF03001DE659 /* Sources */,
+				4B9688962A3BCF03001DE659 /* Frameworks */,
+				4B9688972A3BCF03001DE659 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4B96889B2A3BCF03001DE659 /* PBXTargetDependency */,
+			);
+			name = RaptorUITests;
+			productName = RaptorUITests;
+			productReference = 4B9688992A3BCF03001DE659 /* RaptorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4B96886C2A3BCF01001DE659 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					4B9688732A3BCF01001DE659 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					4B96888E2A3BCF03001DE659 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 4B9688732A3BCF01001DE659;
+					};
+					4B9688982A3BCF03001DE659 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 4B9688732A3BCF01001DE659;
+					};
+				};
+			};
+			buildConfigurationList = 4B96886F2A3BCF01001DE659 /* Build configuration list for PBXProject "Raptor" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4B96886B2A3BCF01001DE659;
+			productRefGroup = 4B9688752A3BCF01001DE659 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4B9688732A3BCF01001DE659 /* Raptor */,
+				4B96888E2A3BCF03001DE659 /* RaptorTests */,
+				4B9688982A3BCF03001DE659 /* RaptorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4B9688722A3BCF01001DE659 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B9688872A3BCF03001DE659 /* LaunchScreen.storyboard in Resources */,
+				4B9688842A3BCF03001DE659 /* Assets.xcassets in Resources */,
+				4B9688822A3BCF01001DE659 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B96888D2A3BCF03001DE659 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B9688972A3BCF03001DE659 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4B9688702A3BCF01001DE659 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B96887F2A3BCF01001DE659 /* ViewController.m in Sources */,
+				4B9688792A3BCF01001DE659 /* AppDelegate.m in Sources */,
+				4B96888A2A3BCF03001DE659 /* main.m in Sources */,
+				4B96887C2A3BCF01001DE659 /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B96888B2A3BCF03001DE659 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B9688942A3BCF03001DE659 /* RaptorTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B9688952A3BCF03001DE659 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B9688A02A3BCF03001DE659 /* RaptorUITestsLaunchTests.m in Sources */,
+				4B96889E2A3BCF03001DE659 /* RaptorUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4B9688912A3BCF03001DE659 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4B9688732A3BCF01001DE659 /* Raptor */;
+			targetProxy = 4B9688902A3BCF03001DE659 /* PBXContainerItemProxy */;
+		};
+		4B96889B2A3BCF03001DE659 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4B9688732A3BCF01001DE659 /* Raptor */;
+			targetProxy = 4B96889A2A3BCF03001DE659 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4B9688802A3BCF01001DE659 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4B9688812A3BCF01001DE659 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4B9688852A3BCF03001DE659 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4B9688862A3BCF03001DE659 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4B9688A12A3BCF03001DE659 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4B9688A22A3BCF03001DE659 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4B9688A42A3BCF03001DE659 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5L67GNBD42;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Raptor/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Kim-Kim.Raptor";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4B9688A52A3BCF03001DE659 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5L67GNBD42;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Raptor/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Kim-Kim.Raptor";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4B9688A72A3BCF03001DE659 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5L67GNBD42;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Kim-Kim.RaptorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Raptor.app/Raptor";
+			};
+			name = Debug;
+		};
+		4B9688A82A3BCF03001DE659 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5L67GNBD42;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Kim-Kim.RaptorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Raptor.app/Raptor";
+			};
+			name = Release;
+		};
+		4B9688AA2A3BCF03001DE659 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5L67GNBD42;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Kim-Kim.RaptorUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Raptor;
+			};
+			name = Debug;
+		};
+		4B9688AB2A3BCF03001DE659 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5L67GNBD42;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Kim-Kim.RaptorUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Raptor;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4B96886F2A3BCF01001DE659 /* Build configuration list for PBXProject "Raptor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B9688A12A3BCF03001DE659 /* Debug */,
+				4B9688A22A3BCF03001DE659 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4B9688A32A3BCF03001DE659 /* Build configuration list for PBXNativeTarget "Raptor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B9688A42A3BCF03001DE659 /* Debug */,
+				4B9688A52A3BCF03001DE659 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4B9688A62A3BCF03001DE659 /* Build configuration list for PBXNativeTarget "RaptorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B9688A72A3BCF03001DE659 /* Debug */,
+				4B9688A82A3BCF03001DE659 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4B9688A92A3BCF03001DE659 /* Build configuration list for PBXNativeTarget "RaptorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B9688AA2A3BCF03001DE659 /* Debug */,
+				4B9688AB2A3BCF03001DE659 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4B96886C2A3BCF01001DE659 /* Project object */;
+}
