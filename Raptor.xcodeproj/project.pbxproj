@@ -17,6 +17,9 @@
 		4B9688942A3BCF03001DE659 /* RaptorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B9688932A3BCF03001DE659 /* RaptorTests.m */; };
 		4B96889E2A3BCF03001DE659 /* RaptorUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B96889D2A3BCF03001DE659 /* RaptorUITests.m */; };
 		4B9688A02A3BCF03001DE659 /* RaptorUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B96889F2A3BCF03001DE659 /* RaptorUITestsLaunchTests.m */; };
+		4BABC25C2A3FD97F0015D47D /* Controllers in Resources */ = {isa = PBXBuildFile; fileRef = 4BABC25B2A3FD97F0015D47D /* Controllers */; };
+		4BC05F512A40002300BC61AB /* Controllers in Sources */ = {isa = PBXBuildFile; fileRef = 4BABC25B2A3FD97F0015D47D /* Controllers */; };
+		4BC05F532A40012700BC61AB /* Model in Resources */ = {isa = PBXBuildFile; fileRef = 4BC05F522A40012700BC61AB /* Model */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +57,8 @@
 		4B9688992A3BCF03001DE659 /* RaptorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RaptorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B96889D2A3BCF03001DE659 /* RaptorUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RaptorUITests.m; sourceTree = "<group>"; };
 		4B96889F2A3BCF03001DE659 /* RaptorUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RaptorUITestsLaunchTests.m; sourceTree = "<group>"; };
+		4BABC25B2A3FD97F0015D47D /* Controllers */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Controllers; sourceTree = "<group>"; };
+		4BC05F522A40012700BC61AB /* Model */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Model; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +109,7 @@
 		4B9688762A3BCF01001DE659 /* Raptor */ = {
 			isa = PBXGroup;
 			children = (
+				4BC05F522A40012700BC61AB /* Model */,
 				4B9688772A3BCF01001DE659 /* AppDelegate.h */,
 				4B9688782A3BCF01001DE659 /* AppDelegate.m */,
 				4B96887A2A3BCF01001DE659 /* SceneDelegate.h */,
@@ -115,6 +121,7 @@
 				4B9688852A3BCF03001DE659 /* LaunchScreen.storyboard */,
 				4B9688882A3BCF03001DE659 /* Info.plist */,
 				4B9688892A3BCF03001DE659 /* main.m */,
+				4BABC25B2A3FD97F0015D47D /* Controllers */,
 			);
 			path = Raptor;
 			sourceTree = "<group>";
@@ -239,6 +246,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4BC05F532A40012700BC61AB /* Model in Resources */,
+				4BABC25C2A3FD97F0015D47D /* Controllers in Resources */,
 				4B9688872A3BCF03001DE659 /* LaunchScreen.storyboard in Resources */,
 				4B9688842A3BCF03001DE659 /* Assets.xcassets in Resources */,
 				4B9688822A3BCF01001DE659 /* Main.storyboard in Resources */,
@@ -266,6 +275,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4BC05F512A40002300BC61AB /* Controllers in Sources */,
 				4B96887F2A3BCF01001DE659 /* ViewController.m in Sources */,
 				4B9688792A3BCF01001DE659 /* AppDelegate.m in Sources */,
 				4B96888A2A3BCF03001DE659 /* main.m in Sources */,
