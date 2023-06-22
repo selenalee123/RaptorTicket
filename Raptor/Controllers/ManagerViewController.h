@@ -6,9 +6,9 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "MyStore.h"
+#import "../Model/MyStore.h"
 
 @interface ManagerViewController : UIViewController
-@property (nonatomic)MyStore *myModelPointerInmanagerVC;
+@property (nonatomic)MyStore *managersPointerToStoreObject;
 
 @end

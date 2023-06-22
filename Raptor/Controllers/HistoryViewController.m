@@ -7,8 +7,7 @@
 
 #import "HistoryViewController.h"
 
-@implementation HistoryViewController
-
+@interface HistoryViewController ()<UIPickerViewDelegate,UIPickerViewDataSource>
 // Implement the necessary methods and functionality for the history view controller
 
 @end

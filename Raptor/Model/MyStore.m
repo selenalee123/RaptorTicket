@@ -5,10 +5,17 @@
 @interface MyStore()
 
 @property (nonatomic) NSMutableArray *tickets;
-@property (nonatomic) NSMutableArray *historyItems;
+
 @end
 
 @implementation MyStore
+
+- (MyStore*) myModel{
+    if(_myModel == nil){
+        _myModel = [[MyStore alloc]init];
+    }
+    return _myModel;
+}
 
 - (NSMutableArray *)historyItems {
     if (_historyItems == nil) {

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3F878CEA2A43874F00A77F60 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F878CE92A43874F00A77F60 /* Foundation.framework */; };
 		4B9688792A3BCF01001DE659 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B9688782A3BCF01001DE659 /* AppDelegate.m */; };
 		4B96887C2A3BCF01001DE659 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B96887B2A3BCF01001DE659 /* SceneDelegate.m */; };
 		4B96887F2A3BCF01001DE659 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B96887E2A3BCF01001DE659 /* ViewController.m */; };
@@ -18,7 +19,6 @@
 		4B96889E2A3BCF03001DE659 /* RaptorUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B96889D2A3BCF03001DE659 /* RaptorUITests.m */; };
 		4B9688A02A3BCF03001DE659 /* RaptorUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B96889F2A3BCF03001DE659 /* RaptorUITestsLaunchTests.m */; };
 		4BABC25C2A3FD97F0015D47D /* Controllers in Resources */ = {isa = PBXBuildFile; fileRef = 4BABC25B2A3FD97F0015D47D /* Controllers */; };
-		4BC05F512A40002300BC61AB /* Controllers in Sources */ = {isa = PBXBuildFile; fileRef = 4BABC25B2A3FD97F0015D47D /* Controllers */; };
 		4BC05F532A40012700BC61AB /* Model in Resources */ = {isa = PBXBuildFile; fileRef = 4BC05F522A40012700BC61AB /* Model */; };
 /* End PBXBuildFile section */
 
@@ -40,6 +40,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3F878CE92A43874F00A77F60 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		4B9688742A3BCF01001DE659 /* Raptor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Raptor.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B9688772A3BCF01001DE659 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		4B9688782A3BCF01001DE659 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -66,6 +67,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F878CEA2A43874F00A77F60 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -86,6 +88,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3F878CE82A43874E00A77F60 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3F878CE92A43874F00A77F60 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		4B96886B2A3BCF01001DE659 = {
 			isa = PBXGroup;
 			children = (
@@ -93,6 +103,7 @@
 				4B9688922A3BCF03001DE659 /* RaptorTests */,
 				4B96889C2A3BCF03001DE659 /* RaptorUITests */,
 				4B9688752A3BCF01001DE659 /* Products */,
+				3F878CE82A43874E00A77F60 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -109,6 +120,7 @@
 		4B9688762A3BCF01001DE659 /* Raptor */ = {
 			isa = PBXGroup;
 			children = (
+				4BABC25B2A3FD97F0015D47D /* Controllers */,
 				4BC05F522A40012700BC61AB /* Model */,
 				4B9688772A3BCF01001DE659 /* AppDelegate.h */,
 				4B9688782A3BCF01001DE659 /* AppDelegate.m */,
@@ -121,7 +133,6 @@
 				4B9688852A3BCF03001DE659 /* LaunchScreen.storyboard */,
 				4B9688882A3BCF03001DE659 /* Info.plist */,
 				4B9688892A3BCF03001DE659 /* main.m */,
-				4BABC25B2A3FD97F0015D47D /* Controllers */,
 			);
 			path = Raptor;
 			sourceTree = "<group>";
@@ -275,7 +286,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4BC05F512A40002300BC61AB /* Controllers in Sources */,
 				4B96887F2A3BCF01001DE659 /* ViewController.m in Sources */,
 				4B9688792A3BCF01001DE659 /* AppDelegate.m in Sources */,
 				4B96888A2A3BCF03001DE659 /* main.m in Sources */,
@@ -455,6 +465,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 5L67GNBD42;
+				"EXCLUDED_ARCHS[sdk=*]" = arm64;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Raptor/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -482,6 +493,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 5L67GNBD42;
+				"EXCLUDED_ARCHS[sdk=*]" = arm64;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Raptor/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;

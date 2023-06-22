@@ -5,11 +5,47 @@
 //  Created by kk on 2023-06-15.
 //
 
-#import <HistoryViewController.h>
+#import "HistoryViewController.h"
 #import "ManagerViewController.h"
+#import "Model/Ticket.h"
+
+@interface ManagerViewController ()<UIPickerViewDelegate, UIPickerViewDataSource>
+
+
+
+@end
 
 @implementation ManagerViewController
 
-// Implement the necessary methods and functionality for the manager view controller
+- (void)viewDidLoad {
+    [super viewDidLoad];
+}
+
+- (MyStore *)managersPointerToStoreObject {
+    if (!_managersPointerToStoreObject) {
+        _managersPointerToStoreObject = [[MyStore alloc] init]; // Initialize your MyStore object here
+    }
+    return _managersPointerToStoreObject;
+}
+
+- (NSInteger)numberOfComponentsInPickerView:(UIPickerView *)pickerView {
+    return 1;
+}
+
+- (NSInteger)pickerView:(UIPickerView *)pickerView numberOfRowsInComponent:(NSInteger)component {
+    return self.managersPointerToStoreObject.tickets.count;
+}
+
+- (NSString *)pickerView:(UIPickerView *)pickerView titleForRow:(NSInteger)row forComponent:(NSInteger)component {
+    Ticket *t = self.managersPointerToStoreObject.tickets[row];
+    return t.title;
+}
+
+- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
+    if ([segue.identifier isEqualToString:@"toHistory"]) {
+        HistoryViewController *hvc = (HistoryViewController *)segue.destinationViewController;
+        hvc.listOfHistoryItems = self.managersPointerToStoreObject.tickets;
+    }
+}
 
 @end

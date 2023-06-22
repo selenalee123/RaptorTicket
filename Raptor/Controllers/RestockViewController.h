@@ -6,7 +6,8 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "Model/Ticket.h"
 
 @interface RestockViewController : UIViewController
-
+@property (nonatomic, strong) MyStore *restockpointerToMyModel;
 @end

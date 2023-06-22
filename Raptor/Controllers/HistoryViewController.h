@@ -10,5 +10,6 @@
 
 
 @interface HistoryViewController : UIViewController
-
+//@property (nonatomic)MyStore *historyPointerToObject;
+@property (nonatomic)NSMutableArray *listOfhistoryItems;
 @end
