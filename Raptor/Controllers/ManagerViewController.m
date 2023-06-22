@@ -7,6 +7,8 @@
 
 #import "HistoryViewController.h"
 #import "ManagerViewController.h"
+#import "RestockViewController.h"
+
 #import "Model/Ticket.h"
 
 @interface ManagerViewController ()<UIPickerViewDelegate, UIPickerViewDataSource>
@@ -43,8 +45,13 @@
 
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
     if ([segue.identifier isEqualToString:@"toHistory"]) {
-        HistoryViewController *hvc = (HistoryViewController *)segue.destinationViewController;
-        hvc.listOfHistoryItems = self.managersPointerToStoreObject.tickets;
+        HistoryViewController *hvc = segue.destinationViewController;
+        hvc.listOfhistoryItems = self.managersPointerToStoreObject.historyItems;
+//        hvc.historyPointerToObject = self.managersPointerToStoreObject;
+    }
+    else if ([segue.identifier isEqualToString:@"toRestock"]) {
+        RestockViewController *rvc = segue.destinationViewController;
+        rvc.restockpointerToMyModel = self.managersPointerToStoreObject;
     }
 }
 

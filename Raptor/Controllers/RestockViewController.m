@@ -8,6 +8,7 @@
 #import "RestockViewController.h"
 #import "HistoryViewController.h"
 #import "ManagerViewController.h"
+#import "RestockViewController.h"
 #import "Model/Ticket.h"
 
 
@@ -28,8 +29,7 @@
     return 1;
 }
 
-- (NSInteger) pickerView:(UIPickerView *)pickerView{
-numberOfRowInComponent: (NSInteger)component{
+- (NSInteger)pickerView:(UIPickerView *)pickerView numberOfRowsInComponent:(NSInteger)component {
     return self.managersPointerToStoreObject.tickets.count;
 }
 
@@ -43,7 +43,11 @@ numberOfRowInComponent: (NSInteger)component{
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
     if ([segue.identifier isEqualToString:@"toHistory"]) {
         HistoryViewController *hvc = (HistoryViewController *)segue.destinationViewController;
-        hvc.listOfhistoryItems = self.managersPointerToStoreObject.tickets;
+        hvc.listOfHistoryItems = self.managersPointerToStoreObject.tickets;
+    }
+    else if ([segue.identifier isEqualToString:@"toRestock"]) {
+        ManagerViewController *rvc = (ManagerViewController *)segue.destinationViewController;
+        rvx.managersPointerToStoreObject = self.managersPointerToStoreObject;
     }
 }
 @end

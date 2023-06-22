@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		3F878CEA2A43874F00A77F60 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F878CE92A43874F00A77F60 /* Foundation.framework */; };
+		3FE307082A43E04F00204118 /* Controllers in Resources */ = {isa = PBXBuildFile; fileRef = 3FE307072A43E04F00204118 /* Controllers */; };
 		4B9688792A3BCF01001DE659 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B9688782A3BCF01001DE659 /* AppDelegate.m */; };
 		4B96887C2A3BCF01001DE659 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B96887B2A3BCF01001DE659 /* SceneDelegate.m */; };
 		4B96887F2A3BCF01001DE659 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B96887E2A3BCF01001DE659 /* ViewController.m */; };
@@ -18,7 +19,6 @@
 		4B9688942A3BCF03001DE659 /* RaptorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B9688932A3BCF03001DE659 /* RaptorTests.m */; };
 		4B96889E2A3BCF03001DE659 /* RaptorUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B96889D2A3BCF03001DE659 /* RaptorUITests.m */; };
 		4B9688A02A3BCF03001DE659 /* RaptorUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B96889F2A3BCF03001DE659 /* RaptorUITestsLaunchTests.m */; };
-		4BABC25C2A3FD97F0015D47D /* Controllers in Resources */ = {isa = PBXBuildFile; fileRef = 4BABC25B2A3FD97F0015D47D /* Controllers */; };
 		4BC05F532A40012700BC61AB /* Model in Resources */ = {isa = PBXBuildFile; fileRef = 4BC05F522A40012700BC61AB /* Model */; };
 /* End PBXBuildFile section */
 
@@ -41,6 +41,7 @@
 
 /* Begin PBXFileReference section */
 		3F878CE92A43874F00A77F60 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		3FE307072A43E04F00204118 /* Controllers */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Controllers; sourceTree = "<group>"; };
 		4B9688742A3BCF01001DE659 /* Raptor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Raptor.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B9688772A3BCF01001DE659 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		4B9688782A3BCF01001DE659 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -58,7 +59,6 @@
 		4B9688992A3BCF03001DE659 /* RaptorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RaptorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B96889D2A3BCF03001DE659 /* RaptorUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RaptorUITests.m; sourceTree = "<group>"; };
 		4B96889F2A3BCF03001DE659 /* RaptorUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RaptorUITestsLaunchTests.m; sourceTree = "<group>"; };
-		4BABC25B2A3FD97F0015D47D /* Controllers */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Controllers; sourceTree = "<group>"; };
 		4BC05F522A40012700BC61AB /* Model */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Model; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -120,7 +120,7 @@
 		4B9688762A3BCF01001DE659 /* Raptor */ = {
 			isa = PBXGroup;
 			children = (
-				4BABC25B2A3FD97F0015D47D /* Controllers */,
+				3FE307072A43E04F00204118 /* Controllers */,
 				4BC05F522A40012700BC61AB /* Model */,
 				4B9688772A3BCF01001DE659 /* AppDelegate.h */,
 				4B9688782A3BCF01001DE659 /* AppDelegate.m */,
@@ -258,7 +258,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4BC05F532A40012700BC61AB /* Model in Resources */,
-				4BABC25C2A3FD97F0015D47D /* Controllers in Resources */,
+				3FE307082A43E04F00204118 /* Controllers in Resources */,
 				4B9688872A3BCF03001DE659 /* LaunchScreen.storyboard in Resources */,
 				4B9688842A3BCF03001DE659 /* Assets.xcassets in Resources */,
 				4B9688822A3BCF01001DE659 /* Main.storyboard in Resources */,
